@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { useAuth } from '../../contexts/AuthContext'
+import { useAuth } from '../../contexts'
 import { supabase } from '../../utils/supabaseClient'
 import { uploadImage, formatPrice } from '../../utils/helpers'
 import LoadingSpinner from '../../components/LoadingSpinner'

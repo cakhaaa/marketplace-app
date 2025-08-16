@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import AuthContext from './AuthContext'
+import AuthContext from './AuthContextObject'
 
 export const useAuth = () => {
   const context = useContext(AuthContext)
@@ -8,4 +8,3 @@ export const useAuth = () => {
   }
   return context
 }
-
